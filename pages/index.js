@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import {format, parseISO} from 'date-fns';
+import { getAllPosts } from '../lib/data';
 
 export default function Home({posts}) {
   return (
@@ -38,7 +39,7 @@ export async function getStaticProps(){
   }
 }
 
-function BlogListItem({slug, title, data, content}){
+function BlogListItem({slug, title, date, content}){
   return(
     <div className="border border-gray-100 shadow hover:shadow-md hover:border-gray-200 rounded-md p-4 transition duration-200 ease-in">
       <div>

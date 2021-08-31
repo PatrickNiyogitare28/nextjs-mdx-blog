@@ -30,7 +30,7 @@ export default function BlogPage({title, data, content}){
     )
 }
 
-export async function getStaticProps(content){
+export async function getStaticProps(context){
     const {params} = context;
     const allPosts = getAllPosts();
     const {data, content} = allPosts.find((item) => item.slug === params.slug)
