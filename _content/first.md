@@ -1,118 +1,122 @@
 ---
-title: My first post!
+title: Why you should choose Nestjs
 date: 2021-02-14T19:05:27.220Z
 ---
 
-- **[pica](https://nodeca.github.io/pica/demo/)** - high quality and fast image
-  resize in browser.
-- **[babelfish](https://github.com/nodeca/babelfish/)** - developer friendly
-  i18n with plurals support and easy syntax.
+![why-nest](https://raw.githubusercontent.com/PatrickNiyogitare28/gist-blog/main/src/gist-images/why-nest-banner.jpg)
 
-You will like those projects!
 
----
+## Table of Contents
+1. [What is Nestjs](#What-is-Nestjs)
+2. [Why nestjs](#Why-nestjs)
+3. [What you can build with Nestjs](#What-you-can-build-with-Nestjs)
+4. [Companies using Nestjs](#Companies-using-Nestjs)
+5. [References](#References)
 
-# h1 Heading 8-)
 
-## h2 Heading
 
-### h3 Heading
+### What is Nestjs
+ 
+[Nestjs] is a framework for building efficient, scalable [Nodejs] server-side applications. It uses modern JavaScript, is built with [TypeScript] (preserves compatibility with pure JavaScript) and combines elements of OOP (Object Oriented Programming), FP (Functional Programming), and FRP (Functional Reactive Programming).
 
-#### h4 Heading
+Under the hood, Nest makes use of [Express], but also, provides compatibility with a wide range of other libraries, like e.g. [Fastify], allowing for easy use of the myriad third-party plugins which are available.
+ 
+ It uses robust HTTP Server frameworks like [Express] or [Fastify]. Nest provides a level of abstraction above the common Node.js frameworks and exposes their APIs to the developer. This gives a great amount of freedom to use third-party modules.
 
-##### h5 Heading
+It is the fastest growing nodejs typescript framework for building server side interprise application. It was develope by [Kamil Mysliwiec] and the first version was released in 2017 highly inspired by [Angular].
 
-###### h6 Heading
+### Why nestjs
 
-## Horizontal Rules
+To be able to  talk about the nestjs magics you always need to bring in Nodejs because [Nestjs] adds a layour abover the usual [Express] or [Fastify] application.
+In nodejs ecosystem Nodejs includes nothing by default there is no assumption.
+If would like to know why I'm talking about [Nestjs] and why It's the first [Nodejs] framework highly used today, I found you minimal points in very many others.
 
----
+- [X] Developer is tasked project setup for every thing needed to be used, architecture set up which may 
+ result into the potential problems as the application grows or the team grows very large, the application is hard to maintain and lack of  consistance in the codebase
 
----
+- [x] [Nestjs] provides those setup such as setting up [TypeScript], api routing, middleware setup, error handling, E2E tests and Unite tests etc
 
----
+- [x] [Nestjs] provides developer teams with out of the box architecture to create scalable, loosly-coupled, testable
+  and maintainable interprise applications.
 
-## Typographic replacements
+- [X] [Nestjs] being amaizing it doesn't block a developer from using the basic [Nodejs] but it adds a layer above [Nodejs],
+  by default it uses express but upon that you can also use fastfy or other 
+ 
+- [X] A quick and efficient development process, architecture consistance, [TypeScript] and Robust CLI accelerates the development process
 
-Enable typographer option to see result.
+- [X] Highly scalable and easy to maintain applications.
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+- [X] It's Opensource and Fastest growing [Nodejs] framework for the past 3 years with Large and active community, you can join the community [discord server](https://discord.gg/qF6dWNQH). For any blocker or issue you post and get replied soon from community members
 
-test.. test... test..... test?..... test!....
+- [X] [Nestjs] has positioned itself at a unique crossroad of front end and mid-tier development that many languages have struggled to find.
 
-!!!!!! ???? ,, -- ---
+- [X] The use of TypeScript helps ensure that Nest will remain relevant in the rapidly changing JavaScript landscape and gives developers less context switching.
 
-"Smartypants, double quotes" and 'single quotes'
+- [X] Support for dozens of nest-specific modules that help you easily integrate with common technologies and concepts like TypeORM, Mongoose, GraphQL, Logging, Validation, Caching, WebSockets and much more
 
-## Emphasis
+- [X] The passport feature that allows easy intergration of thirdy part authentication strategies e.g: Auth0, Github Auth, Facebook Auth, OAuth2 etc
 
-**This is bold text**
+- [X] It leverages [TypeScript] — strongly typed language which is a superset of [JavaScript]
 
-**This is bold text**
+- [X] Great documentation for guidance
 
-_This is italic text_
+- [X] Easy E2E and Unite tests, [Nestjs] powerfull CLI generates `.spec` file for `controller`, `service`, `gateway` and etc  with boiler plate code to build the feature Unite tests, you can also override them or intergrate other third party testing libraries.
 
-_This is italic text_
+- [X] Built for large scale and maintainable enterprise applications, [Nestjs] is breaking the record of [Java]  known of building large scale interprise applications, with [Nestjs] you can build them and keep the [Java] desplines such as **OOP** and **Dependency Injection**
 
-~~Strikethrough~~
+- [X] Like it was mentioned above in introductions, [Nestjs] provides an out of the box application architecture that allows developers and teams to create highly testable, scalable, loosely coupled and easily maintainable applications.
 
-## Blockquotes
+- [X] [Nestjs] forces developers to use a specific architecture by introducing [Angular] -like modules, services, and controllers, ensuring the application is scalable, highly testable, and loosely coupled contrary to other [Nodejs] frameworks like [Express], [Fastify] or Koa where a mistake early on in the project regarding the architecture may cost a lot in terms of time spent refactoring the codebase later.
 
-> Blockquotes can also be nested...
->
-> > ...by using additional greater-than signs right next to each other...
-> >
-> > > ...or with spaces between arrows.
+- [X] The structure of the application in [Nestjs] is heavily based on [Angular]. The structure is very simple and allows more attention to be paid to the design of endpoints and their consumers, instead of the application structure.
 
-## Lists
+- [X] Powerful Command Line Interface (CLI) to boost productivity and ease of development
 
-Unordered
+- [X] [Nestjs] swagger for Restful API documation easy the work of documenting apis
 
-- Create a list by starting a line with `+`, `-`, or `*`
-- Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    - Ac tristique libero volutpat at
-    * Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-- Very easy!
+- [X] [Nestjs] is easy to learn and muster.
 
-Ordered
 
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
+### What you can build with Nestjs
 
-4. You can use sequential numbers...
-5. ...or keep all the numbers as `1.`
+Nestjs provides dependincies to build a production ready application of the following
 
-Start numbering with offset:
+- RESTFUL API applications
+- MOCROSERVICE applications
+- MONOLITHIS applications
+- WEB SOCKETS applications
+- GRAPHQL applications
+- CLI applications
+- MVC applications
+- Clone Jobs applications
 
-57. foo
-1. bar
+### Companies using Nestjs
+Knowing that serveral companies have shifted their interprise applications to [Nestjs] this confirms what said above
 
-## Code
+![using-1](https://raw.githubusercontent.com/PatrickNiyogitare28/gist-blog/main/src/gist-images/using-nest-1.PNG)
+![using-2](https://raw.githubusercontent.com/PatrickNiyogitare28/gist-blog/main/src/gist-images/using-nestjs-2.PNG)
 
-Inline `code`
 
-Indented code
+### References
 
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
+- [nestjs-official-doc](nestjs.com/)
+- [https://medium.com/selleo/why-choose-nest-js-as-your-backend-framework-c2a69c2154ae](https://medium.com/selleo/why-choose-nest-js-as-your-backend-framework-c2a69c2154ae) 
+- [nestjs-officail-repository](https://github.com/nestjs/nest)
+- [https://hachinet.com/blogs/what-is-nestjs](https://hachinet.com/blogs/what-is-nestjs)
+- [https://selleo.com/blog/why-choose-nest-js-as-your-backend-framework](https://selleo.com/blog/why-choose-nest-js-as-your-backend-framework)
+- [https://jtearl188.medium.com/what-is-nest-js-and-should-i-use-it-b71c7646926b](https://jtearl188.medium.com/what-is-nest-js-and-should-i-use-it-b71c7646926b)
 
-Block code "fences"
 
-```
-Sample text here...
-```
 
-Syntax highlighting
+[Nestjs]: https://nestjs.com
+[Kamil Mysliwiec]: https://github.com/kamilmysliwiec
+[TypeScript]: http://www.typescriptlang.org/
+[Nodejs]: https://nodejs.org/
+[Express]: https://expressjs.com/
+[Fastify]: https://www.fastify.io/
+[Angular]: https://angular.io/
+[JavaScript]: https://www.javascript.com/
+[Java]: https://en.wikipedia.org/wiki/Java
 
-```js
-var foo = function (bar) {
-  return bar++;
-};
+#
 
-console.log(foo(5));
-```

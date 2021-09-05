@@ -9,7 +9,7 @@ export default function BlogPage({title, data, content}){
     const hydratedContent = hydrate(content);
 
     return (
-        <div>
+        <div className="w-6/12">
             <Head>
                 <title>{title}</title>
                 <link rel="icon" href="/favicon.icon" />
@@ -19,7 +19,7 @@ export default function BlogPage({title, data, content}){
                 <div className="border-b-2 border-gray-200 mb-4">
                     <h2 className="text-3xl font-bold">{title}</h2>
                     <div className="text-gray-600 text-md">
-                     {format(parseISO(data), 'MMMM do, uuu')}
+                      1st Sept 2021
                     </div>
                 </div>
                 <div className="prose">
@@ -47,10 +47,11 @@ export async function getStaticProps(context){
 
 export async function getStaticPaths(){
     return {
-        paths: getAllPosts.map((post) => ({
+        paths: getAllPosts().map((post) => ({
             params: {
                 slug: post.slug
             }
-        }))
+        })),
+        fallback:false
     }
 }
